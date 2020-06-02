@@ -1,0 +1,13 @@
+li a {
+    color: white;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: white url("images/background.jpg");
+     /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
