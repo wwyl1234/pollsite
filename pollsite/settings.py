@@ -148,11 +148,8 @@ TEMPLATES = [
 ]
 
 # This should be enabled if being depolyed
-# DEBUG = False
-# ALLOWED_HOSTS = [] whatever the domain we host this site to be
-print('DEBUG:')
-print(DEBUG)
 if DEBUG == False:
+    ALLOWED_HOSTS = ['thepoll.herokuapp.com']
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
 
