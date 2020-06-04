@@ -1,5 +1,28 @@
-li a {
+
+/* Small Text excluding buttons should be white. */
+li {
     color: white;
+}
+
+#nav {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #add8e6;
+}
+
+label {
+    color: white;
+}
+
+/* Change color when user hovers the nav link to make it easier for user to tell that it is a link*/
+#nav:hover{
+    background-color: black;
+}
+
+
+/* h1 should have a contrasting colour to the dark background and different from the smaller text */
+h1 {
+    color: #ffffed;
 }
 
 body {
